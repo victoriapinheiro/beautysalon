@@ -1,0 +1,33 @@
+import styles from "./Servicos.module.css";
+import Image from "next/image";
+import icon1 from "@/app/assets/icons/icon1.png";
+import icon2 from "@/app/assets/icons/icon2.png";
+import icon3 from "@/app/assets/icons/icon3.png"
+
+export default function Servicos() {
+    return (
+        <main className={styles.servicos} id="Servicos">
+            <div className={styles.container_textual}>
+                <h2>Serviços</h2>
+                <p>Com mais de 10 anos no mercado, o Beautysalon já conquistou clientes de inúmeros países com seus tratamentos exclusivos e totalmente naturais</p>
+            </div>
+            <div className={styles.container_cards}>
+                <div className={styles.card}>
+                    <Image src={icon1}></Image>
+                    <h3>Terapia capilar</h3>
+                    <p>Terapia completa para couro cabeludo e fios, protegendo todos os tipos de cabelos, inclusive os longos e finos.</p>
+                </div>
+                <div className={styles.card}>
+                    <Image src={icon2}></Image>
+                    <h3>Cortes</h3>
+                    <p>A nossa equipe é repleta de profissionais renomados, famosos por lançarem tendências com cortes diferenciados e clássicos.</p>
+                </div>
+                <div className={styles.card}>
+                    <Image src={icon3}></Image>
+                    <h3>Tratamentos</h3>
+                    <p>O beautysalon conta com diversos tratamentos naturais e totalmente veganos, para qualquer tipo de cabelo.</p>
+                </div>
+            </div>
+        </main>
+    );
+}

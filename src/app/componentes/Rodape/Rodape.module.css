@@ -1,0 +1,41 @@
+.rodape {
+    width: 100%;
+    height: 237px;
+    background-color: #69B99D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: #0f241d;
+}
+
+.logo span {
+    color: #F9F9F9;
+}
+
+.texto_rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 26px;
+}
+
+.p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #F9F9F9
+}

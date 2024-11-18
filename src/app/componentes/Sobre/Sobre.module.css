@@ -1,0 +1,21 @@
+.container_sobre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 766px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.banner_sobre {
+    height: 412px;
+    width: 617px;
+    box-shadow: -100px -50px 1px #CCF4E6;
+}
+
+.container_textual {
+    max-width: 610px;
+    padding-right: 70px;
+}

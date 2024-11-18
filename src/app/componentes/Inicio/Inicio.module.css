@@ -1,0 +1,40 @@
+.inicio {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 699px;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+
+.banner {
+    height: 375px;
+    width: 561px;
+    box-shadow: 50px -50px 1px #CCF4E6;
+}
+
+.container_textual {
+    max-width: 396px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    gap: 10px;
+}
+
+.btn {
+    background-color: #69B99D;
+    border-radius: 4px;
+    width: 218px;
+    height: 50px;
+    padding: 13px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #F9F9F9;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+}
