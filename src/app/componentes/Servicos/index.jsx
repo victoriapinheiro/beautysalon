@@ -1,6 +1,6 @@
 import styles from "./Servicos.module.css";
 import Image from "next/image";
-import icon1 from "@/app/assets/icons/icon1.png";
+import icon1 from "../../assets/icons/icon1.png";
 import icon2 from "@/app/assets/icons/icon2.png";
 import icon3 from "@/app/assets/icons/icon3.png"
 
