@@ -1,7 +1,7 @@
 import styles from "./Servicos.module.css";
-import icon1 from "./Icon1.png";
+import icon1 from "@/app/assets/icons/Icon1.png";
 import icon2 from "@/app/assets/icons/Icon2.png";
-import icon3 from "@/app/assets/icons/icon3.png"
+import icon3 from "@/app/assets/icons/Icon3.png"
 
 export default function Servicos() {
     return (
