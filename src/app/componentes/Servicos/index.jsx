@@ -2,6 +2,7 @@ import styles from "./Servicos.module.css";
 import icon1 from "./icon1.png";
 import icon2 from "./icon2.png";
 import icon3 from "./icon3.png";
+import Image from "next/image";
 
 export default function Servicos() {
     return (
@@ -12,17 +13,17 @@ export default function Servicos() {
             </div>
             <div className={styles.container_cards}>
                 <div className={styles.card}>
-                    <img src={icon1}></img>
+                    <Image src={icon1}></Image>
                     <h3>Terapia capilar</h3>
                     <p>Terapia completa para couro cabeludo e fios, protegendo todos os tipos de cabelos, inclusive os longos e finos.</p>
                 </div>
                 <div className={styles.card}>
-                    <img src={icon2}></img>
+                    <Image src={icon2}></Image>
                     <h3>Cortes</h3>
                     <p>A nossa equipe é repleta de profissionais renomados, famosos por lançarem tendências com cortes diferenciados e clássicos.</p>
                 </div>
                 <div className={styles.card}>
-                    <img src={icon3}></img>
+                    <Image src={icon3}></Image>
                     <h3>Tratamentos</h3>
                     <p>O beautysalon conta com diversos tratamentos naturais e totalmente veganos, para qualquer tipo de cabelo.</p>
                 </div>
