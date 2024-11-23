@@ -9,6 +9,7 @@
   font-family: "DM Sans", sans-serif;
   color: #0F241D;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3 {

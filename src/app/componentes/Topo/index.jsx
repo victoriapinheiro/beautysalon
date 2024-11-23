@@ -13,11 +13,11 @@ export default function Topo() {
                 <div>
                     <nav className={styles.menu}>
                         <li>
-                            <ul><Link href="/">Início</Link></ul>
-                            <ul><Link href="/#Sobre">Sobre</Link></ul>
-                            <ul><Link href="/#Servicos">Serviços</Link></ul>
-                            <ul><Link href="#">Depoimentos</Link></ul>
-                            <ul><Link href="/#Contato">Contato</Link></ul>
+                            <ul><Link className={styles.link_menu} href="/#Inicio">Início</Link></ul>
+                            <ul><Link className={styles.link_menu} href="/#Sobre">Sobre</Link></ul>
+                            <ul><Link className={styles.link_menu} href="/#Servicos">Serviços</Link></ul>
+                            <ul><Link className={styles.link_menu} href="#">Depoimentos</Link></ul>
+                            <ul><Link className={styles.link_menu} href="/#Contato">Contato</Link></ul>
                         </li>
                     </nav>
                 </div>
